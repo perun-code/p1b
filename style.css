@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: medium;
+}
+
+body {
+  background-color: #CDCDCD;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  z-index: -1;
+
+}
+
+header {
+  width: 100%;
+  background: transparent;
+  float: left;
+  position: fixed;
+  top: -25px;
+  z-index: 4;
+}
+
+header span {
+  color: #00a650;
+  font-size: 20px;
+  position: relative;
+  top: 42.5px;
+  left: 145px;
+  z-index: 3;
+
+}
+
+.navigation {
+  padding: 20px 20px;
+  position: relative;
+  background: rgb(0, 0, 0, 0.8);
+
+}
+
+.navigation a {
+  position: relative;
+  left: 65%;
+  font-size: 15px;
+  padding: 12px 12px;
+  color: white;
+  text-decoration: none;
+}
+
+
+.navigation a:after {
+	display: block;
+	position: absolute;
+	right: 0;
+	width: 0;
+	height: 2px;
+	background-color: #00a650;
+	content: "";
+	transition: width 0.3s ease-out;
+}
+
+.navigation a:hover:after,
+.navigation a:focus:after {
+	width: 100%;
+}
+
+header .input {
+  position: relative;
+  top: -42px;
+  left: 390px;
+  z-index: 3;
+}
+
+.image-button {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 43px;
+  right: 630px;
+  border: none;
+  border-radius: 10px;
+  z-index: 3;
+  background-image: url('/title-images/search-new.png');
+  background-size: cover;
+}
+.image-button:hover {
+  opacity: 0.7;
+}
+
+.image-button:active {
+  transform: scale(0.95);
+}
+
+header input {
+  width: 500px;
+  height: 25px;
+  border-radius: 10px;
+}
+
+form span {
+  font-size: 15px;
+  position: absolute;
+  top: 45px;
+  left: 320px;
+  color: white;
+}
+
+.texts-title .first{
+  position: absolute;
+  top: 15%;
+  left: 10.5%;
+}
+
+.texts-title .second{
+  position: absolute;
+  top: 60%;
+  right: 10.5%;
+  text-align: center;
+}
+
+.texts-title span {
+  font-size: 40px;
+  color: white;
+  -webkit-text-stroke: 2px black;
+}
+
+
+
+.image-button2 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 4%;
+  right: 48%;
+  border: none;
+  border-radius: 55px;
+  z-index: 3;
+  background-image: url('/title-images/anti-uper.jpg');
+  background-size: cover;
+}
+.image-button2:hover {
+  opacity: 0.9;
+}
+
+.image-button2:active {
+  transform: scale(0.95);
+}
+
+.second-tl {
+  display: block;
+}
+
+.second-tl .logo2 {
+  width: 400px;
+  height: 400px;
+}
+
+.second-tl img {
+  position: relative;
+  top: 10px;
+  left: 63%;  
+}
+
+.second-tl .proposition-first{
+  position: absolute;
+  top: 105%;
+  left: 13%;
+}
+
+
+.second-tl span {
+  font-size: 35px;
+  color: white;
+  -webkit-text-stroke: 2px black;
+}
+
+.second-tl .propos2 {
+  position: absolute;
+  left: 15%;
+  top: 120%;
+}
+
+.second-tl img{
+  width: 570px;
+  height: 300px;
+}
+
+
+.under img {
+  width: 1000px;
+  height: 560px;
+}
+
+.img1{
+  position: absolute;
+  top: 180%;
+  left: 13%;
+  border-radius: 20px;
+}
+.img2{
+  position: absolute;
+  top: 280%;
+  left: 13%;
+  border-radius: 20px;
+}
+.footer {
+  position: absolute;  
+  top: 370%;
+  padding: 100px 100px;
+  width: 100%;
+  background: rgb(0, 0, 0, 0.8);
+}
+
+.footer .links a{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: auto;
+  right: 30px;
+}
+
+
